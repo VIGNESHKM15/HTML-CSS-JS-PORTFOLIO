@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Vignesh Kuppan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Vignesh Kuppan</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div>
+                    <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                    </div>
+                </div>
+            </nav>
+            <section id="profile">
+                <div class="section__pic-container">
+                    <img src="./assets/profile-pic.png" alt="vignesh kuppan profile picture">
+                    </div>
+                    <div class="section__text">
+                        <p class="section__text__p1">Hello, I'm</p>
+                        <h1 class="title">Vignesh Kuppan</h1>
+                        <p class="section__text__p2">Full Stack Developer</p>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2" onclick="window.open('./assets/Vignesh Kuppan Resume.pdf')">
+                                Download CV
+                            </button>
+                            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                                Contact Info
+                            </button>
+                            </div>
+                            <div id="socials-container">
+                                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/vignesh-k-7923a62a7/'"/>
+                                <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/VIGNESHKM15'"/>
+                            </div>
+                        </div>
+            </section>
+            <section id="about">
+                <p class="section__text__p1">Get to know More</p>
+                <h1 class="title">About</h1>
+                <div class="section-container">
+                    <div class="about-details-container">
+                        <div class="about-containers">
+                            <div class="details-container">
+                                <img src="./assets/education.png" alt="Education icon" class="icon"/>
+                                <h2>Education</h2>
+                                <h4>Adhiyamaan College of Engineering - Hosur (08/2019 - 05/2023)</h4>
+                                    <p>B.E.Computer Science Engineering - 8.01 CGPA </p>
+                                    <h3>E.R.K. Higher Secondary School - Erumiyampatti (06/2018 - 03/2019)</h3>
+                                    <p>Higher Secondary School (12th Std) - 54.83% </p>
+                                    <h3>E.R.K. Higher Secondary School - Erumiyampatti (06/2016 - 03/2017)</h3>
+                                    <p>Secondary School (10th Std) - 88.6% </p>
+                                </div>
+                            <div class="details-container">
+                            <img src="./assets/certification.png" alt="certification icon" class="icon"/>
+                            <h2>Certification</h2>
+                            <h4>Python - UNIQ Technology | 12/2021</h4>
+                                <p><li>Successfully completed an internship in Python Application Development,</li>
+                                    <li>Successfully completed a mini-project in the Student Management System,</li>
+                                    <li>Successfully completed the workshop on Python.</li>
+                                    </p>
+                                    <h4>Smart India Hackathon | 08/2022</h4>
+                                    <p><li>Certificate of Participation in "Smart India Hackathon, 2022" Converting the
+                                        doctor's handwritten prescription into normal text and digitizing the reports.</li></p>
+                                    <h4>CSI Student Branch ACE, Hosur | 06/2022</h4>
+                                    <p><li>Certificate of Participation in Mobile App Development.</li></p>
+                                    <h4>AWS - Great Learning | 06/2023</h4>
+                                    <p><li>Successfully completed an AWS for Beginners.</li></p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Skills'"/>
+            </section>
+            <section id="Skills">
+                <p class="section__text__p1">Explore My</p>
+                <h1 class="title">Skills</h1>
+                <div class="experience-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <h2 class="experience-sub-title">Front End Development</h2>
+                            <div class="article-container">
+                                <article> <img src="./assets/checkmark.png" alt="Experience-icon" class="icon"/>
+                                    <div>
+                                        <h3>HTML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90%</h3>
+                                        <div class="animi html"></div>
+                                    </div>
+                                </article>
+                                <article> <img src="./assets/checkmark.png" alt="Experience-icon" class="icon"/>
+                                    <div>
+                                        <h3>CSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90%</h3>
+                                        <div class="animi css"></div>
+                                    </div>
+                                </article>
+                                <article> <img src="./assets/checkmark.png" alt="Experience-icon" class="icon"/>
+                                    <div>
+                                        <h3>React.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;75%</h3>
+                                        <div class="animi react"></div>
+                                    </div>
+                                </article>
+                                <article> <img src="./assets/checkmark.png" alt="Experience-icon" class="icon"/>
+                                    <div>
+                                        <h3>Bootstrap5&nbsp;70%</h3>
+                                        <div class="animi boot"></div>
+                                    </div>
+                                </article>
+                                
+                                <article> <img src="./assets/checkmark.png" alt="Experience-icon" class="icon"/>
+                                    <div>
+                                        <h3>JavaScript 70%</h3>
+                                        <div class="animi js"></div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="details-container">
+                            <h2 class="experience-sub-title">Back End Development</h2>
+                            <div class="article-container">
+                                <article> <img src="./assets/checkmark.png" alt="Experience-icon" class="icon"/>
+                                    <div>
+                                        <h3>java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;65%</h3>
+                                        <div class="animi"></div>
+                                    </div>
+                                </article>
+                                <article> <img src="./assets/checkmark.png" alt="Experience-icon" class="icon"/>
+                                    <div>
+                                        <h3>Python &nbsp;&nbsp;&nbsp;&nbsp;65%</h3>
+                                        <div class="animi python"></div>
+                                    </div>
+                                </article>
+                                <article> <img src="./assets/checkmark.png" alt="Experience-icon" class="icon"/>
+                                    <div>
+                                        <h3>Hibernate 50%</h3>
+                                        <div class="animi hibernate"></div>
+                                    </div>
+                                </article>
+                                <article> <img src="./assets/checkmark.png" alt="Experience-icon" class="icon"/>
+                                    <div>
+                                        <h3>MySql  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80%</h3>
+                                        <div class="animi mysql"></div>
+                                    </div>
+                                </article>
+                                <article> <img src="./assets/checkmark.png" alt="Experience-icon" class="icon"/>
+                                    <div>
+                                        <h3>JDBC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60%</h3>
+                                        <div class="animi jdbc"></div>
+                                    </div>
+                                </article>
+                                
+                                <article> <img src="./assets/checkmark.png" alt="Experience-icon" class="icon"/>
+                                    <div>
+                                        <h3>Maven &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50%</h3>
+                                        <div class="animi maven"></div>
+                                    </div>
+                                </article>
+                                <article> <img src="./assets/checkmark.png" alt="Experience-icon" class="icon"/>
+                                    <div>
+                                        <h3>SpringBoot&nbsp;50%</h3>
+                                        <div class="animi springboot"></div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+            </section>
+            <section id="projects">
+                <p class="section__text__p1">Browse My Recent</p>
+                <h1 class="title">Projects</h1>
+                <div class="experience-details-container">
+                    <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/project-1.png" alt="project-1" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project One</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/VIGNESHKM15'">
+                                Github
+                                </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/VIGNESHKM15'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/project-2.png" alt="project-2" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Two</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/VIGNESHKM15'">
+                                Github
+                                </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/VIGNESHKM15'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        
+                        <div class="article-container">
+                            <img src="./assets/project-3.png" alt="project-3" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Three</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/VIGNESHKM15'">
+                                Github
+                                </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/VIGNESHKM15'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div></div>
+                    </div>
+                <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+            </section>
+            <section id="contact">
+                <p class="section__text__p1">Get in Touch</p>
+                <h1 class="title">Contact Me</h1>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="Contactcontainers">
+                <input type="hidden" name="access_key" value="9fadb503-f3ed-405b-af7d-d72834af1ee3">
+                <input type="text" name="name" placeholder="Your Name" class="Contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="Contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="Contact-inputs" required></textarea>
+                <button type="submit" class="btn btn-color-1">Submit</button>
+            </div>
+        </form>        
+        <div class="Contact-info-upper-container">
+                    <div class="Contact-info-container">
+                        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+                        <p><a href="mailto:vigneshrao346@gmail.com">vigneshrao346@gmail.com</a></p>
+                    </div>
+                    <div class="Contact-info-container">
+                        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+                        <p><a href="https://www.linkedin.com/in/vignesh-k-7923a62a7/">LinkedIn</a></p>
+                    </div>
+                    <div class="Contact-info-container">
+                        <img src="./assets/naukri.png" alt="Naukri icon" class="icon contact-icon"/>
+                        <p><a href="https://www.naukri.com/mnjuser/profile?id=&altresid">Naukri</a></p>
+                    </div>
+                    <div class="Contact-info-container">
+                        <img src="./assets/phone.png" alt="Contact icon" class="icon contact-icon"/>
+                        <p><a href="tel:+91 9786890169">+91 9786890169</a></p>
+                    </div>
+                    <div class="Contact-info-container">
+                        <img src="./assets/map.png" alt="location icon" class="icon contact-icon"/>
+                        <p><a href="https://maps.app.goo.gl/NaJimReB1D33XWnQ9">Chengam, Tiruvannamalai, Tamil Nadu</a></p>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <nav>
+                    <div class="nav-links-container">
+                        <ul class="nav-links">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#Skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                        <br>
+                        <p>Copyright &#169; 2023 Vignesh Kuppan. All Rights Reserved.</p>
+                    </div>
+                </nav>
+            </footer>
+    <script src="script.js"></script>
+</body>
+</html>

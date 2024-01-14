@@ -1,0 +1,113 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 2rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    #Skills,
+    .experience-details-container {
+        margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+        display: block;
+    }
+    .arrow {
+        display: none;
+    }
+    section,
+    .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-containers {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #contact,
+    footer {
+        height: 17vh;
+        margin-top: 17rem;
+    }
+    #profile {
+        height: 83vh;
+    }
+    article {
+        font-size: 1rem;
+    }
+    footer nav {
+        font-size: smaller;
+        text-align: center;
+    }
+    .Contact-info-upper-container {
+        border-radius: 1rem;
+    }
+    .btn-color-2,
+    .Contactcontainers,
+    .Contact-inputs,
+    .Contactcontainers textarea,
+    .about-containers,
+    .Contact-info-upper-container,
+    .btn-container {
+        flex-wrap: wrap;
+    }
+    .Contact-info-container {
+        margin: 0;
+    }
+    .Contact-info-container p,
+    .nav-links li a  {
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        margin: 0.2rem;
+    }
+    .experience-sub-title {
+        font-size: 1rem;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    .nav-links-container {
+        justify-content: space-around;
+        align-items: center;
+        height: 7vh;
+        margin: 4rem;
+    }
+    .contact-icon {
+        height: 1.3rem;
+    }
+    .section__pic-container {
+        height: 40vh;
+        justify-content: center;
+    }
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .text-container {
+        height: fit-content;
+    }
+}
