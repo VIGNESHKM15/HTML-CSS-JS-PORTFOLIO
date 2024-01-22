@@ -338,7 +338,7 @@ footer p {
     }
     footer nav {
         height: fit-content;
-        margin-top: 0.5rem;
+        margin-top: -2.5rem;
         font-size: x-large;
     }
     .Contactcontainers,
@@ -416,7 +416,7 @@ footer p {
         justify-content: left;
         border: none;
         margin-top: 3rem;
-        margin-bottom: 3rem;
+        margin-bottom: 6rem;
     }
     .experience-sub-title {
         text-align: center;
