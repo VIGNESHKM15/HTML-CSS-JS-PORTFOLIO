@@ -306,12 +306,10 @@ footer p {
     }
     .contact-icon {
         cursor: pointer;
-    }
-    .icon {
-        height: 2rem;
+        height: 1.5rem;
     }
     .email-icon {
-        height: 2.5rem;
+        height: 1.8rem;
     }
     .btn {
         font-weight: 600;
@@ -321,13 +319,26 @@ footer p {
         font-size: smaller;
         border-radius: 2rem;
     }
+    .article-container {
+        text-align: initial;
+        font-weight: 600;
+        font-size: medium;
+        text-align: left;
+    }
+    
     article {
-        font-size: 1rem;
+        display: flex;
+        width: 10rem;
+        justify-content: space-around;
+        gap: 0.5rem;
+    }
+    
+    article .icon {
+        cursor: default;
     }
     footer nav {
         height: fit-content;
-        margin-top: 2rem;
-        margin-bottom: -2rem;
+        margin-top: 0.1rem;
         font-size: x-large;
     }
     .Contactcontainers,
@@ -339,7 +350,7 @@ footer p {
         flex-wrap: wrap;
     }
     .experience-details-container {
-        margin-top: 14.4rem;
+        margin-top: 12rem;
     }
     .title {
         font-size: 2rem;
@@ -365,8 +376,8 @@ footer p {
         margin-top: -1rem;
     }
     .Contactcontainers {
-        margin-bottom: -1rem;
-        margin-top: -1.7rem;
+        margin-bottom: -1.3rem;
+        margin-top: 0.4rem;
     }
     .nav-links {
         display: flex;
@@ -376,11 +387,10 @@ footer p {
     }
     footer p {
         font-size: 0.8rem;
-        margin-top: -2rem;
+        margin-top: -1.5rem;
     }
     .Contact-info-container p {
-        font-size: 1rem;
-        font-size: 1rem;
+        font-size: small;
     }
     .Contact-info-container {
         display: flex;
@@ -406,6 +416,14 @@ footer p {
         margin-bottom: 2rem;
         justify-content: left;
         border: none;
+        margin-top: 2rem;
+    }
+    .experience-sub-title {
+        text-align: center;
+        font-size: larger;
+    }
+    .icon {
+        height: 1.8rem;
     }
     
 }
