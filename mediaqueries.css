@@ -377,6 +377,7 @@ footer p {
     }
     .Contactcontainers {
         margin-top: 0.1rem;
+        margin-bottom: -3rem;
     }
     .nav-links {
         display: flex;
@@ -412,7 +413,6 @@ footer p {
         border: rgb(53, 53, 53) 0.1rem solid;
     }
     .Contact-info-upper-container {
-        margin-bottom: 2rem;
         justify-content: left;
         border: none;
         margin-top: 3rem;
