@@ -1,4 +1,4 @@
-
+/* GENERAL */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
@@ -8,6 +8,7 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    display: grid;
 }
 
 html{
@@ -26,7 +27,7 @@ a,
 
 }
 
-/* TRANSITION */
+/* DESKTOP NAV */
 
 nav,
 .nav-links{
@@ -36,7 +37,7 @@ nav,
 nav{
     justify-content: space-around;
     align-items: center;
-    height: 18vh;
+    height: 17vh;
 }
 
 .nav-links{
@@ -44,7 +45,6 @@ nav{
     list-style: none;
     font-size: 1.5rem;
 }
-
 a {
     color: black;
     text-decoration: none;
@@ -56,7 +56,6 @@ a:hover {
     text-underline-offset: 1rem;
     text-decoration-color:rgb(181, 181, 181) ;
 }
-
 .logo {
     font-size: 2rem;
 }
@@ -104,7 +103,7 @@ a:hover {
 }
 
 .menu-links a{
-    display: flex;
+    display: block;
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
@@ -232,6 +231,11 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
 }
 
+.btn-color-1:hover,
+.btn-color-2:hover {
+    cursor: pointer;
+}
+
 .btn-color-1,
 .btn-color-2:hover{
     background: rgb(53, 53, 53);
@@ -268,7 +272,7 @@ section {
 
 .about-details-container {
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .about-containers,
@@ -282,12 +286,13 @@ section {
 
 .arrow {
     position: absolute;
-    right: -5rem;
+    right: -7rem;
     bottom: 2.5rem;
 }
 
 .details-container {
-    padding: 3rem;
+    padding: 1.5rem;
+    flex: 1;
     font-size: medium;
     background: white;
     border-radius: 2rem;
@@ -298,9 +303,8 @@ section {
 }
 
 .section-container {
-    gap: 5rem;
+    gap: 4rem;
     height: 80%;
-    width: 100%;
 }
 
 .section__pic-container {
@@ -330,7 +334,7 @@ section {
 
 .article-container {
     display: flex;
-    text-align: start;
+    text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
@@ -382,16 +386,18 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: fit-content;
 }
 
 .Contactcontainers {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 20px;
     justify-content: center;
     height: 50vh;
+}
+
+.Contactcontainers,
+.btn-color-2 {
+        text-align: center;
 }
 
 .Contact-inputs {
@@ -404,11 +410,13 @@ article .icon {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0.7rem;
     border: rgb(53, 53, 53) 0.1rem solid;
 }
 
 .Contactcontainers textarea {
     height: 140px;
+    font-weight: 500;
     color: #666;
     padding-top: 15px;
     border-radius: 2rem;
@@ -422,8 +430,8 @@ article .icon {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     background: (250, 250, 250);
-    margin: 0.5rem auto;
-    margin-top: 2rem;
+    margin: -0rem auto;
+    padding: 0.1rem;
 }
 
 .Contact-info-container {
@@ -449,151 +457,25 @@ article .icon {
 /* FOOTER SECTION*/
 
 footer {
-    height: 0.1vh;
-    
+    margin-top: -5.9rem;
 }
 
-/* SKILLS PERCENTAGE */
-
-
-
-
-.animi {
-    position: relative;
-    list-style: none;
-    font-weight: 500;
+footer p {
+    text-align: center;
+    font-size: smaller;
 }
 
-.animi:before {
-    content: "";
-    position: absolute;
-    top: calc(100% + 10px);
-    width: 100%;
-    height: 10px;
-    background-color: rgba(85, 85, 85, 0.5);
-    border-radius: 2rem;
+.nav-links {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
 }
 
-.animi:after {
-    content: "";
-    position: absolute;
-    top: calc(100% + 10px);
-    left: 0;
-    width: 0;
-    height: 10px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 2rem;
-    animation-duration: .7s;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards;
+.Contact-info-upper-container {
+    margin-bottom: 5.3rem;
 }
 
-.animi.animi:after {
-    animation-name: animi;
-}
-
-@keyframes animi {
-    to {
-        width: 65%;
-    }
-}
-.animi.python:after {
-    animation-name: python;
-}
-
-@keyframes python {
-    to {
-        width: 65%;
-    }
-}
-.animi.mysql:after {
-    animation-name: mysql;
-}
-
-@keyframes mysql {
-    to {
-        width: 80%;
-    }
-}
-.animi.jdbc:after {
-    animation-name: jdbc;
-}
-
-@keyframes jdbc {
-    to {
-        width: 60%;
-    }
-}
-.animi.springboot:after {
-    animation-name: springboot;
-}
-
-@keyframes springboot {
-    to {
-        width: 50%;
-    }
-}
-.animi.hibernate:after {
-    animation-name: hibernate;
-}
-
-@keyframes hibernate {
-    to {
-        width: 50%;
-    }
-}
-.animi.maven:after {
-    animation-name: maven;
-}
-
-@keyframes maven {
-    to {
-        width: 50%;
-    }
-}
-.animi.js:after {
-    animation-name: js;
-}
-
-@keyframes js {
-    to {
-        width: 70%;
-    }
-}
-.animi.boot:after {
-    animation-name: boot;
-}
-
-@keyframes boot {
-    to {
-        width: 70%;
-    }
-}
-.animi.react:after {
-    animation-name: react;
-}
-
-@keyframes react {
-    to {
-        width: 75%;
-    }
-}
-
-.animi.css:after {
-    animation-name: css;
-}
-
-@keyframes css {
-    to {
-        width: 90%;
-    }
-}
-.animi.html:after {
-    animation-name: html;
-}
-
-@keyframes html {
-    to {
-        width: 90%;
-    }
+.Contactcontainers {
+    margin-bottom: 1rem;
 }
