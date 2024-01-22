@@ -327,6 +327,7 @@ footer p {
     footer nav {
         height: fit-content;
         margin-top: 2rem;
+        margin-bottom: -2rem;
         font-size: x-large;
     }
     .Contactcontainers,
@@ -375,6 +376,7 @@ footer p {
     }
     footer p {
         font-size: 0.8rem;
+        margin-top: -2rem;
     }
     .Contact-info-container p {
         font-size: 1rem;
