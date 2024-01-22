@@ -283,6 +283,7 @@ footer p {
         justify-content: center;
         gap: 5rem;
         height: 83vh;
+        margin-top: 3rem;
     }
     .logo {
         font-size: x-large;
@@ -310,7 +311,7 @@ footer p {
         height: 2rem;
     }
     .email-icon {
-        height: 2.2rem;
+        height: 2.5rem;
     }
     .btn {
         font-weight: 600;
@@ -377,6 +378,7 @@ footer p {
     }
     .Contact-info-container p {
         font-size: 1rem;
+        font-size: 1rem;
     }
     .Contact-info-container {
         display: flex;
@@ -399,10 +401,9 @@ footer p {
         border: rgb(53, 53, 53) 0.1rem solid;
     }
     .Contact-info-upper-container {
-        margin-top: 3rem;
         margin-bottom: 2rem;
         justify-content: left;
-        border-radius: 1rem;
+        border: none;
     }
     
 }
