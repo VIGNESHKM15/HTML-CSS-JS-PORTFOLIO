@@ -389,9 +389,11 @@ footer p {
     }
     .nav-links-container {
         margin-top: -6rem;
+        margin-bottom: 2rem;
     }
     footer p {
         font-size: 0.8rem;
+        margin-bottom: -2rem;
     }
     .Contact-info-container p {
         font-size: small;
