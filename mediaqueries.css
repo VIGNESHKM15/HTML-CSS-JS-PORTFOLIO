@@ -336,9 +336,11 @@ footer p {
     article .icon {
         cursor: default;
     }
+    footer {
+        margin-top: 2rem;
+    }
     footer nav {
         height: fit-content;
-        margin-top: -1.5rem;
         font-size: x-large;
     }
     .Contactcontainers,
@@ -386,11 +388,10 @@ footer p {
         font-size: 1.1rem;
     }
     .nav-links-container {
-        margin-top: -1.5rem;
+        margin-top: -6rem;
     }
     footer p {
         font-size: 0.8rem;
-        margin-top: 0.7rem;
     }
     .Contact-info-container p {
         font-size: small;
@@ -419,7 +420,6 @@ footer p {
         justify-content: left;
         border: none;
         margin-top: 3rem;
-        margin-bottom: 6rem;
     }
     .experience-sub-title {
         text-align: center;
