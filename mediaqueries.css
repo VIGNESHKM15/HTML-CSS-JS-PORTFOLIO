@@ -1,4 +1,4 @@
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1400px) {
     #profile {
         display: flex;
         justify-content: center;
@@ -151,7 +151,7 @@ footer p {
 
 /* ipad, tablet */
 
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1200px) {
     #profile {
         display: block;
         justify-content: center;
