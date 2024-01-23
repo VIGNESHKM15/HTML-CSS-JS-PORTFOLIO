@@ -324,6 +324,7 @@ section {
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .experience-details-container {
@@ -334,7 +335,6 @@ section {
 
 .article-container {
     display: flex;
-    text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
@@ -345,7 +345,6 @@ section {
 article {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
     gap: 0.5rem;
 }
 
