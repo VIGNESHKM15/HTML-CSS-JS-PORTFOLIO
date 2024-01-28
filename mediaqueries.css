@@ -151,7 +151,7 @@ footer p {
 
 /* ipad, tablet */
 
-@media all and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     #profile {
         display: block;
         justify-content: center;
